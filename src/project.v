@@ -9,8 +9,8 @@
 
 module tt_um_openram_top (
     `ifdef USE_POWER_PINS
-      input VPWR,
-      input VGND,
+      inout VPWR,
+      inout VGND,
     `endif
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
