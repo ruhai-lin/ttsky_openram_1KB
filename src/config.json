@@ -74,7 +74,7 @@
 
     "FP_PDN_VPITCH": 200,
     "FP_PDN_VSPACING": 4.5,
-    "FP_PDN_VOFFSET": 3,
+    "FP_PDN_VOFFSET": 2,
     
     "FP_PDN_VERTICAL_HALO": 10,
     "FP_PDN_HORIZONTAL_HALO": 10,
