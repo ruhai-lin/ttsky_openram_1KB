@@ -18,7 +18,7 @@ project:
   # Don't forget to also update `PROJECT_SOURCES` in test/Makefile.
   source_files:
   - "project.v"
-  - "macros/sky130_sram_1rw_tiny.v"
+  - "macros/sky130_sram_1kbytes_1rw_32x256_8/sky130_sram_1kbytes_1rw_32x256_8.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:

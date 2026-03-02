@@ -5,7 +5,7 @@
 
 `default_nettype none
 //`timescale 1ns / 1ps
-`include "macros/sky130_sram_1rw_tiny.v"
+`include "macros/sky130_sram_1kbytes_1rw_32x256_8/sky130_sram_1kbytes_1rw_32x256_8.v"
 
 module tt_um_openram_top (
     `ifdef USE_POWER_PINS
@@ -49,7 +49,7 @@ module tt_um_openram_top (
       counter <= counter + 8'd1;
   end
 
-  // Address: use low 4 bits of the counter (16 locations)
+  // Address: use low 4 bits of the counter (16 locations inside the 1KB SRAM)
   assign addr  = counter[3:0];
 
   // Data to write: store the current counter value in the low 8 bits
@@ -65,7 +65,7 @@ module tt_um_openram_top (
   assign web = ~write_enable;
 
   // SRAM instance
-  sky130_sram_1rw_tiny SRAM (
+  sky130_sram_1kbytes_1rw_32x256_8 SRAM (
     `ifdef USE_POWER_PINS
       .vccd1(VPWR),
       .vssd1(VGND),
