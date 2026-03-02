@@ -5,12 +5,11 @@
 
 `default_nettype none
 //`timescale 1ns / 1ps
-`include "macros/sky130_sram_1kbytes_1rw_32x256_8/sky130_sram_1kbytes_1rw_32x256_8.v"
 
 module tt_um_openram_top (
     `ifdef USE_POWER_PINS
-      inout VPWR,
-      inout VGND,
+      input VPWR,
+      input VGND,
     `endif
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
