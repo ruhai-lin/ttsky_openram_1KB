@@ -72,7 +72,7 @@
     "VDD_NETS": "VPWR",
     "GND_NETS": "VGND",
 
-    "FP_PDN_VPITCH": 200,
+    "FP_PDN_VPITCH": 100,
     "FP_PDN_VSPACING": 4.5,
     "FP_PDN_VOFFSET": 2,
     
