@@ -136,7 +136,6 @@ define_pdn_grid \
     -macro \
     -default \
     -name macro \
-    -grid_over_boundary \
     -starts_with POWER \
     -halo "$::env(FP_PDN_HORIZONTAL_HALO) $::env(FP_PDN_VERTICAL_HALO)"
 

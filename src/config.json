@@ -43,7 +43,7 @@
             "instances": {
                 "SRAM": {
                     "location": [
-                        10,
+                        20,
                         10
                     ],
                     "orientation": "S"
