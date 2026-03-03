@@ -64,7 +64,7 @@
             }
         },
         
-    "FP_PDN_CFG": "src/pdn_config.tcl",
+    // "FP_PDN_CFG": "src/pdn_config.tcl",
     
     "PDN_MACRO_CONNECTIONS": ["SRAM vccd1 vssd1 VPWR VGND"],
     "VERILOG_POWER_DEFINE": "USE_POWER_PINS",
@@ -72,16 +72,16 @@
     "VDD_NETS": "VPWR",
     "GND_NETS": "VGND",
 
-    "FP_PDN_VPITCH": 100,
-    "FP_PDN_VSPACING": 4.5,
-    "FP_PDN_VOFFSET": 2,
+    // "FP_PDN_VPITCH": 100,
+    // "FP_PDN_VSPACING": 4.5,
+    // "FP_PDN_VOFFSET": 2,
     
-    "FP_PDN_VERTICAL_HALO": 10,
-    "FP_PDN_HORIZONTAL_HALO": 10,
+    // "FP_PDN_VERTICAL_HALO": 10,
+    // "FP_PDN_HORIZONTAL_HALO": 10,
 
-    "FP_TAP_VERTICAL_HALO": 5,
-    "FP_TAP_HORIZONTAL_HALO": 5,
-    "FP_TAPCELL_DIST": 7,
+    // "FP_TAP_VERTICAL_HALO": 5,
+    // "FP_TAP_HORIZONTAL_HALO": 5,
+    // "FP_TAPCELL_DIST": 7,
 
     "ERROR_ON_PDN_VIOLATIONS": false,
     
